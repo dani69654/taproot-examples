@@ -3,7 +3,6 @@ import * as bip39 from 'bip39';
 import { BIP32Factory } from 'bip32';
 import * as bitcoin from 'bitcoinjs-lib';
 import * as tinysecp from 'tiny-secp256k1';
-import { spend } from './spend';
 import { toXOnly } from 'bitcoinjs-lib/src/psbt/bip371';
 
 bitcoin.initEccLib(tinysecp);
